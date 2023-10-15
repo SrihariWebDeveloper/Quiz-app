@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@1000&family=Poppins:wght@300&family=Qwitcher+Grypen:wght@700&family=Roboto+Slab:wght@600&family=Rubik:wght@800;900&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+} 
+body{
+  background-color: #ccc;
+}
+.start-btn, 
+.rules, 
+section, 
+footer, 
+.second-2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  transition: 1s ease all;
+}
+button{
+  color: #fff;
+  background-color: dodgerblue;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+.rules-list{
+  height: 250px;
+  width: 380px;
+  background-color: #fff;
+  border-radius: 10px;
+  animation-name: rulesForm;
+  animation-duration: 1s;
+  display: none;
+}
+
+@keyframes rulesForm{
+  0%{
+    opacity: 0.1;
+  }
+  25%{
+    opacity: 0.4;
+  }
+  50%{
+    opacity: 0.6;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.show{
+  display: block;
+}
+.rules-list .rules-head{
+  font-size: 25px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-bottom: 2px solid #ccc;
+}
+.rules-list .rule-1{
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 30px;
+}
+span{
+  color: dodgerblue;
+  font-weight: 600;
+}
+.btn-2{
+  display: flex;
+  float: right;
+  margin: 10px;
+  gap: 10px;
+}
+.exit{
+  color: dodgerblue;
+  background-color: #fff;
+  border: 2px solid dodgerblue;
+}
+.exit:hover{
+  color: #fff;
+  background-color: dodgerblue;
+} 
+section{
+  background-color: #fff;
+  height: 430px;
+  width: 410px;
+  border-radius: 5px;
+  animation-name: rulesForm;
+  animation-duration: 1s;
+  display: none;
+}
+
+.first-q{
+  padding: 10px 20px;
+}
+.heading-text{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  height: 30px;
+  border-bottom: 2px solid #ccc;
+}
+.heading-text .heading{
+  font-weight: 600;
+  font-size: 18px;
+  cursor: none;
+}
+.heading-text .time{
+  font-weight: 500;
+  background-color: #ccc;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+}
+.t{
+  color: #000;
+}
+.question{
+  padding: 10px 10px;
+}
+.question-1{
+  font-size: 20px;
+  font-weight: 600;
+}
+.options-list{
+  padding-top: 10px;
+  font-size: 18px;
+}
+.option-1{
+  background-color: #fff;
+  border: 2px solid skyblue;
+  margin: 10px;
+  border-radius: 5px;
+  padding-left: 5px;
+  cursor: pointer;
+  width: 350px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.option-1 i{
+  padding-right: 15px;
+  color: limegreen;
+}
+.option-1 .fa-solid{
+  color: orangered;
+}
+.q-count{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.nextq{
+  float: right;
+}
+footer{
+  height: 300px;
+  width: 400px;
+  background-color: #fff;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  animation-name: rulesForm;
+  animation-duration: 1s;
+  display: none;
+}
+.queen-icon{
+  color: #000;
+  font-size: 5rem;
+}
+.text-2, 
+.text-3{
+  font-weight: 600;
+  font-size: 17px;
+}
+.again-play{
+  padding-top: 18px;
+}
+.quit-btn{
+  background-color: #fff;
+  border: 2px solid dodgerblue;
+  color: dodgerblue;
+}
+.quit-btn:hover{
+  background-color: dodgerblue;
+  color: #fff;
+}
+.about{
+  padding-top: 30px;
+  color: #ccc;
+}
+section .second-2{
+  background-color: #fff;
+  height: 430px;
+  width: 410px;
+  border-radius: 5px;
+  animation-name: rulesForm;
+  animation-duration: 1s;
+  display: none;
+}
+section .third-3{
+  background-color: #fff;
+  height: 430px;
+  width: 410px;
+  border-radius: 5px;
+  animation-name: rulesForm;
+  animation-duration: 1s;
+  display: none;
+}
+section .four-4{
+  background-color: #fff;
+  height: 430px;
+  width: 410px;
+  border-radius: 5px;
+  animation-name: rulesForm;
+  animation-duration: 1s;
+  display: none;
+}
+.correct{
+  background-color: limegreen;
+  color: #fff;
+}
